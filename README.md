@@ -6,7 +6,7 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 - `ubuntu:18`
 - `ubuntu:20`
 - `ubuntu:22`
-- `ubuntu:23` <span style="color:red;">deprecated</span>
+- `ubuntu:23` *deprecated*
 
 # Demo
 ```yaml
