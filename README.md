@@ -3,7 +3,6 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 
 # Demo
 ```yaml
-
 apiVersion: cdi.kubevirt.io/v1beta1
 kind: DataVolume
 metadata:
@@ -85,3 +84,6 @@ spec:
     port: 22
     targetPort: 22
 ```
+
+# License
+under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
