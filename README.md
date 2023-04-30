@@ -2,9 +2,14 @@
 This repo provides container-disk that can be used for Kubevirt's cloud-init on Kubernete.
 
 # Available Packages
-| OS        | Version | Login | URL                                              |
-|:----------|:--------|:------|:-------------------------------------------------|
-| archlinux |         | arch  | `ghcr.io/docheio/containerdisk-archlinux:latest` |
+| OS        | Version | Login  | URL                                              |
+|:----------|:--------|:-------|:-------------------------------------------------|
+| archlinux |         | arch   | `ghcr.io/docheio/containerdisk-archlinux:latest` |
+| ubuntu    | bionic  | ubuntu | `ghcr.io/docheio/containerdisk-ubuntu:18`        |
+| ubuntu    | focal   | ubuntu | `ghcr.io/docheio/containerdisk-ubuntu:20`        |
+| ubuntu    | jammy   | ubuntu | `ghcr.io/docheio/containerdisk-ubuntu:22`        |
+| ubuntu    | lunar   | ubuntu | `ghcr.io/docheio/containerdisk-ubuntu:23`        |
+
 
 # Demo
 ```yaml
