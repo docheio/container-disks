@@ -10,7 +10,7 @@ metadata:
 spec:
   source:
     registry:
-      url: "docker pull ghcr.io/docheio/containerdisk-archlinux:latest"
+      url: "ghcr.io/docheio/containerdisk-archlinux:latest"
   pvc:
     accessModes:
       - ReadWriteMany
@@ -86,4 +86,4 @@ spec:
 ```
 
 # License
-under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+Under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
