@@ -42,4 +42,5 @@ jobs:
         context: .
         file: ./archlinux.Dockerfile
         push: true
-        tags: containerdisk-archlinux:latest
+        tags: ghcr.io/docheio/containerdisk-archlinux:latest
+        labels: ${{ steps.meta.outputs.labels }}
