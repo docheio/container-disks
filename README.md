@@ -2,11 +2,11 @@
 This repo provides container-disk that can be used for Kubevirt's cloud-init on Kubernete.
 
 # Available Packages
-- archlinux:latest
-- ubuntu:18
-- ubuntu:20
-- ubuntu:22
-- ubuntu:23 (deprecated)
+- `archlinux:latest`
+- `ubuntu:18`
+- `ubuntu:20`
+- `ubuntu:22`
+- `ubuntu:23` [deprecated]
 
 # Demo
 ```yaml
