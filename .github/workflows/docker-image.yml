@@ -42,4 +42,4 @@ jobs:
         context: .
         file: ./archlinux.Dockerfile
         push: true
-        tags: ${{ steps.meta.outputs.tags }}-archlinux:${{ steps.meta.outputs.labels }}
+        tags: ${{ steps.meta.outputs.tags }}-archlinux:latest
