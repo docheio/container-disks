@@ -2,17 +2,26 @@
 This repo provides container-disk that can be used for Kubevirt's cloud-init on Kubernete.
 
 # Available Packages
-| OS        | Version | Login    | URL                                                |
-|:----------|:--------|:---------|:---------------------------------------------------|
-| archlinux |         | arch     | `ghcr.io/docheio/containerdisk-archlinux:latest`   |
-| ubuntu    | bionic  | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:18`          |
-| ubuntu    | focal   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:20`          |
-| ubuntu    | jammy   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:22`          |
-| ubuntu    | lunar   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:23`          |
-| opensuse  | 15.1    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.1` |
-| opensuse  | 15.2    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.2` |
-| opensuse  | 15.3    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.3` |
-| opensuse  | 15.4    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.4` |
+| OS         | Version | Login    | URL                                                |
+|:-----------|:--------|:---------|:---------------------------------------------------|
+| archlinux  |         | arch     | `ghcr.io/docheio/containerdisk-archlinux:latest`   |
+| ubuntu     | bionic  | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:18`          |
+| ubuntu     | focal   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:20`          |
+| ubuntu     | jammy   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:22`          |
+| ubuntu     | lunar   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:23`          |
+| opensuse   | 15.1    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.1` |
+| opensuse   | 15.2    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.2` |
+| opensuse   | 15.3    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.3` |
+| opensuse   | 15.4    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.4` |
+| centos     | 7       | centos   | `ghcr.io/docheio/containerdisk-centos:7`           |
+| centos     | 8       | centos   | `ghcr.io/docheio/containerdisk-centos:8`           |
+| centos     | 8stream | centos   | `ghcr.io/docheio/containerdisk-centos:8-stream`    |
+| centos     | 9stream | centos   | `ghcr.io/docheio/containerdisk-centos:9-stream`    |
+| fedora     | 35      | fedora   | `ghcr.io/docheio/containerdisk-fedora:35`          |
+| fedora     | 36      | fedora   | `ghcr.io/docheio/containerdisk-fedora:36`          |
+| fedora     | 37      | fedora   | `ghcr.io/docheio/containerdisk-fedora:37`          |
+| rockylinux | 8       | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:8`       |
+| rokcylinux | 9       | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:9`       |
 
 # Demo
 ```yaml
