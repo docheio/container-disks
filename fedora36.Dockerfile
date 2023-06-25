@@ -11,4 +11,4 @@
 # ************************************************************************************************************ #
 
 FROM scratch
-ADD https://mirror.umd.edu/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2 /disk/
+ADD https://mirror.cat.net/fedora/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2 /disk/
