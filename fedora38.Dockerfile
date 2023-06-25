@@ -11,4 +11,4 @@
 # ************************************************************************************************************ #
 
 FROM scratch
-ADD https://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/fedora/linux/releases/38/Cloud/x86_64/images/Fedora-Cloud-Base-38-1.6.x86_64.qcow2 /disk/
+ADD https://mirror.cat.net/fedora/releases/38/Cloud/x86_64/images/Fedora-Cloud-Base-38-1.6.x86_64.qcow2 /disk/
