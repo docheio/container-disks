@@ -11,4 +11,4 @@
 # ************************************************************************************************************ #
 
 FROM scratch
-ADD https://download.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-GenericCloud.latest.x86_64.qcow2 /disk/
+ADD https://mirror.cat.net/rocky/9/images/x86_64/Rocky-9-GenericCloud-Base.latest.x86_64.qcow2 /disk/
