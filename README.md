@@ -73,6 +73,9 @@ spec:
           type: q35
         resources:
           requests:
+            memory: 1G
+            cpu: '1'
+          limits:
             memory: 4G
             cpu: '4'
       networks:
