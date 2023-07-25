@@ -11,4 +11,4 @@
 # ************************************************************************************************************ #
 
 FROM scratch
-ADD https://opensuse.mirror.liquidtelecom.com/repositories/Cloud:/Images:/Leap_15.4/images/openSUSE-Leap-15.4.x86_64-NoCloud.qcow2 /disk/
+ADD https://ftp.gwdg.de/pub/opensuse/repositories/Cloud:/Images:/Leap_15.4/images/openSUSE-Leap-15.4.x86_64-NoCloud.qcow2 /disk/
