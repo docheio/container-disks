@@ -13,6 +13,7 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | opensuse   | 15.2    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.2` |                   |
 | opensuse   | 15.3    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.3` |                   |
 | opensuse   | 15.4    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.4` |                   |
+| opensuse   | 15.5    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.5` |                   |
 | centos     | 7       | centos   | `ghcr.io/docheio/containerdisk-centos:7`           |                   |
 | centos     | 8       | centos   | `ghcr.io/docheio/containerdisk-centos:8`           |                   |
 | centos     | 8stream | centos   | `ghcr.io/docheio/containerdisk-centos:8-stream`    |                   |
