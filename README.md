@@ -34,7 +34,7 @@ metadata:
 spec:
   source:
     registry:
-      url: "ghcr.io/docheio/containerdisk-archlinux:latest"
+      url: "docker://ghcr.io/docheio/containerdisk-archlinux:latest"
   pvc:
     accessModes:
       - ReadWriteMany
