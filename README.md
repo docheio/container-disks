@@ -120,6 +120,7 @@ spec:
     name: tcp22
     port: 22
     targetPort: 22
+EOF
 ```
 
 # License
