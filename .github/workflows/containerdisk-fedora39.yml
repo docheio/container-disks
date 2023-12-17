@@ -56,5 +56,5 @@ jobs:
         context: .
         file: ./fedora39.Dockerfile
         push: true
-        tags: ghcr.io/docheio/containerdisk-fedora:38
+        tags: ghcr.io/docheio/containerdisk-fedora:39
         labels: ${{ steps.meta.outputs.labels }}
