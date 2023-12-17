@@ -6,9 +6,9 @@
 #    By: codespace <codespace@kalyte.ro>             +#++:++    +#++:++#++: +#+       +#++:       +#+     +#++:++#       #
 #                                                   +#+  +#+   +#+     +#+ +#+        +#+        +#+     +#+             #
 #    Created: 2023/12/17 16:35:56 by codespace     #+#   #+#  #+#     #+# #+#        #+#        #+#     #+#              #
-#    Updated: 2023/12/17 16:35:57 by codespace    ###    ### ###     ### ########## ###        ###     ##########.ro     #
+#    Updated: 2023/12/17 16:53:37 by codespace    ###    ### ###     ### ########## ###        ###     ##########.ro     #
 #                                                                                                                        #
 # ********************************************************************************************************************** #
 
- scratch
+FROM scratch
 ADD https://cloud-images.ubuntu.com/daily/server/lunar/current/lunar-server-cloudimg-amd64.img /disk/
