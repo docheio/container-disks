@@ -1,12 +1,12 @@
 # ********************************************************************************************************************** #
 #                                                                                                                        #
 #                                                       :::    :::     :::     :::     :::   ::: ::::::::::: ::::::::::  #
-#    containerdisk-centos7.yml                         :+:   :+:    :+: :+:   :+:     :+:   :+:     :+:     :+:          #
+#    containerdisk-fedora39.yml                        :+:   :+:    :+: :+:   :+:     :+:   :+:     :+:     :+:          #
 #                                                     +:+  +:+    +:+   +:+  +:+      +:+ +:+      +:+     +:+           #
 #    By: codespace <codespace@kalyte.ro>             +#++:++    +#++:++#++: +#+       +#++:       +#+     +#++:++#       #
 #                                                   +#+  +#+   +#+     +#+ +#+        +#+        +#+     +#+             #
-#    Created: 2023/12/17 16:36:08 by codespace     #+#   #+#  #+#     #+# #+#        #+#        #+#     #+#              #
-#    Updated: 2023/12/17 16:36:09 by codespace    ###    ### ###     ### ########## ###        ###     ##########.ro     #
+#    Created: 2023/12/17 16:36:26 by codespace     #+#   #+#  #+#     #+# #+#        #+#        #+#     #+#              #
+#    Updated: 2023/12/17 16:37:32 by codespace    ###    ### ###     ### ########## ###        ###     ##########.ro     #
 #                                                                                                                        #
 # ********************************************************************************************************************** #
 
@@ -54,7 +54,7 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
-        file: ./centos7.Dockerfile
+        file: ./fedora39.Dockerfile
         push: true
-        tags: ghcr.io/docheio/containerdisk-centos:7
+        tags: ghcr.io/docheio/containerdisk-fedora:38
         labels: ${{ steps.meta.outputs.labels }}
