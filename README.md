@@ -27,34 +27,43 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | rockylinux | 9       | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:9`       |                   |
 
 # Demo
-```yaml
+```bash
+NAMESPACE="default"
+NAME="example"
+DISK="40Gi"
+CPU="4"
+MEM="4G"
+SSH_KEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEOO example"
+URL="docker://ghcr.io/docheio/containerdisk-archlinux:latest"
+
+cat <<EOF | kubectl -n $NAMESPACE apply -f -
 apiVersion: cdi.kubevirt.io/v1beta1
 kind: DataVolume
 metadata:
-  name: example
+  name: $NAME
 spec:
   source:
     registry:
-      url: "docker://ghcr.io/docheio/containerdisk-archlinux:latest"
+      url: $URL
   pvc:
     accessModes:
       - ReadWriteMany
     resources:
       requests:
-        storage: 40Gi
+        storage: $DISK
 ---
 apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   labels:
     kubevirt.io/os: linux
-  name: example
+  name: $NAME
 spec:
   running: true
   template:
     metadata:
       labels:
-        kubevirt.io/domain: example
+        kubevirt.io/domain: $NAME
     spec:
       nodeSelector:
         kubevirt.io/schedulable: "true"
@@ -79,33 +88,33 @@ spec:
             memory: 1G
             cpu: '1'
           limits:
-            memory: 4G
-            cpu: '4'
+            memory: $MEM
+            cpu: $CPU
       networks:
       - name: default
         pod: {}
       volumes:
       - name: disk0
         dataVolume:
-          name: example
+          name: $NAME
       - name: cloudinitdisk
         cloudInitNoCloud:
          userData: |
             #cloud-config
-            hostname: example
+            hostname: $NAME
             ssh_pwauth: false
             disable_root: true
             ssh_authorized_keys:
-            - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEOO example
+            - $SSH_KEY
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: example
+  name: $NAME
 spec:
   type: LoadBalancer
   selector:
-    kubevirt.io/domain: example
+    kubevirt.io/domain: $NAME
   ports:
   - protocol: TCP
     name: tcp22
