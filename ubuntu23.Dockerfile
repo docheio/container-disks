@@ -11,4 +11,4 @@
 # ********************************************************************************************************************** #
 
 FROM scratch
-ADD https://cloud-images.ubuntu.com/daily/server/lunar/current/lunar-server-cloudimg-amd64.img /disk/
+ADD https://cloud-images.ubuntu.com/daily/server/mantic/current/mantic-server-cloudimg-amd64.img /disk/
