@@ -8,7 +8,7 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | ubuntu     | bionic  | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:18`          |                   |
 | ubuntu     | focal   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:20`          |                   |
 | ubuntu     | jammy   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:22`          |                   |
-| ubuntu     | lunar   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:23`          |                   |
+| ubuntu     | mantic  | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:23`          |                   |
 | opensuse   | 15.1    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.1` |                   |
 | opensuse   | 15.2    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.2` |                   |
 | opensuse   | 15.3    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.3` |                   |
