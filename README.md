@@ -29,6 +29,7 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | fedora     | 41      | fedora   | `ghcr.io/docheio/containerdisk-fedora:41`          |                   |
 | rockylinux | 8       | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:8`       |                   |
 | rockylinux | 9       | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:9`       |                   |
+| rockylinux | 9.5     | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:9.5`     |                   |
 
 # Demo
 ```bash
