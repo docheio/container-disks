@@ -8,7 +8,7 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | ubuntu     | bionic  | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:18`          |                   |
 | ubuntu     | focal   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:20`          |                   |
 | ubuntu     | jammy   | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:22`          |                   |
-| ubuntu     | mantic  | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:23`          |                   |
+| ubuntu     | mantic  | ubuntu   | `ghcr.io/docheio/containerdisk-ubuntu:23`          | No longer updated |
 | opensuse   | 15.1    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.1` |                   |
 | opensuse   | 15.2    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.2` |                   |
 | opensuse   | 15.3    | opensuse | `ghcr.io/docheio/containerdisk-opensuse-leap:15.3` |                   |
@@ -20,8 +20,8 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | centos     | 9stream | centos   | `ghcr.io/docheio/containerdisk-centos:9-stream`    |                   |
 | fedora     | 35      | fedora   | `ghcr.io/docheio/containerdisk-fedora:35`          | No longer updated |
 | fedora     | 36      | fedora   | `ghcr.io/docheio/containerdisk-fedora:36`          | No longer updated |
-| fedora     | 37      | fedora   | `ghcr.io/docheio/containerdisk-fedora:37`          |                   |
-| fedora     | 38      | fedora   | `ghcr.io/docheio/containerdisk-fedora:38`          |                   |
+| fedora     | 37      | fedora   | `ghcr.io/docheio/containerdisk-fedora:37`          | No longer updated |
+| fedora     | 38      | fedora   | `ghcr.io/docheio/containerdisk-fedora:38`          | No longer updated |
 | fedora     | 39      | fedora   | `ghcr.io/docheio/containerdisk-fedora:39`          |                   |
 | rockylinux | 8       | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:8`       |                   |
 | rockylinux | 9       | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:9`       |                   |
