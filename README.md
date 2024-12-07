@@ -32,14 +32,14 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | rockylinux | 9.5     | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:9.5`     |                   |
 
 # Docker Hub
-| OS         | URL                                                |
-|:-----------|:---------------------------------------------------|
-| archlinux  | `ghcr.io/docheio/containerdisk-archlinux`          |
-| ubuntu     | `ghcr.io/docheio/containerdisk-ubuntu`             |
-| opensuse   | `ghcr.io/docheio/containerdisk-opensuse-leap`      |
-| centos     | `ghcr.io/docheio/containerdisk-centos`             |
-| fedora     | `ghcr.io/docheio/containerdisk-fedora`             |
-| rockylinux | `ghcr.io/docheio/containerdisk-rockylinux`         |
+| OS         | URL                                                             |
+|:-----------|:----------------------------------------------------------------|
+| archlinux  | `https://hub.docker.com/r/docheio/containerdisk-archlinux`      |
+| ubuntu     | `https://hub.docker.com/r/docheio/containerdisk-ubuntu`         |
+| opensuse   | `https://hub.docker.com/r/docheio/containerdisk-opensuse`       |
+| centos     | `https://hub.docker.com/r/docheio/containerdisk-centos`         |
+| fedora     | `https://hub.docker.com/r/docheio/containerdisk-fedora`         |
+| rockylinux | `https://hub.docker.com/r/docheio/containerdisk-rockylinux`     |
 
 # Demo
 ```bash
