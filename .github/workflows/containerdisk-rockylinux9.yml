@@ -58,3 +58,16 @@ jobs:
         push: true
         tags: ghcr.io/docheio/containerdisk-rockylinux:9
         labels: ${{ steps.meta.outputs.labels }}
+
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+    - name: Tag and push to Docker Hub
+      run: |
+        docker pull ghcr.io/docheio/containerdisk-rockylinux:9
+        docker tag  ghcr.io/docheio/containerdisk-rockylinux:9 \
+                    docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-rockylinux:9
+        docker push docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-rockylinux:9
