@@ -54,7 +54,7 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
-        file: ./fedor40.Dockerfile
+        file: ./fedora40.Dockerfile
         push: true
         tags: ghcr.io/docheio/containerdisk-fedora:40
         labels: ${{ steps.meta.outputs.labels }}

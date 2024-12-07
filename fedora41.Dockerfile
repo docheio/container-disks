@@ -11,4 +11,4 @@
 # ********************************************************************************************************************** #
 
 FROM scratch
-ADD https://mirror.cat.net/fedora/releases/41/Cloud/x86_64/images/Fedora-Cloud-Base-39-1.5.x86_64.qcow2 /disk/
+ADD https://mirror.cat.net/fedora/releases/41/Cloud/x86_64/images/Fedora-Cloud-Base-UEFI-UKI-41-1.4.x86_64.qcow2 /disk/
