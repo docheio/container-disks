@@ -31,7 +31,7 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | rockylinux | 9       | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:9`       |                   |
 | rockylinux | 9.5     | rocky    | `ghcr.io/docheio/containerdisk-rockylinux:9.5`     |                   |
 
-# Available Packages on Docker Hub
+# Docker Hub
 | OS         | URL                                                |
 |:-----------|:---------------------------------------------------|
 | archlinux  | `ghcr.io/docheio/containerdisk-archlinux`          |
