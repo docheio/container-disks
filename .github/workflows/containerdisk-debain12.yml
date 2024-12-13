@@ -83,5 +83,5 @@ jobs:
       run: |
         docker pull ghcr.io/docheio/containerdisk-debian:12
         docker tag  ghcr.io/docheio/containerdisk-debian:12 \
-                    cr.kubevirt.jp/containerdisk-debian:12
-        docker push cr.kubevirt.jp/containerdisk-debian:12
+                    cr.kubevirt.jp/debian:12
+        docker push cr.kubevirt.jp/debian:12

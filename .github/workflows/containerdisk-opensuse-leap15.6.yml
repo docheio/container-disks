@@ -83,5 +83,5 @@ jobs:
       run: |
         docker pull ghcr.io/docheio/containerdisk-opensuse-leap:15.6
         docker tag  ghcr.io/docheio/containerdisk-opensuse-leap:15.6 \
-                    cr.kubevirt.jp/containerdisk-opensuse-leap:15.6
-        docker push cr.kubevirt.jp/containerdisk-opensuse-leap:15.6
+                    cr.kubevirt.jp/opensuse-leap:15.6
+        docker push cr.kubevirt.jp/opensuse-leap:15.6

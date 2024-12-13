@@ -83,5 +83,5 @@ jobs:
       run: |
         docker pull ghcr.io/docheio/containerdisk-archlinux:latest
         docker tag  ghcr.io/docheio/containerdisk-archlinux:latest \
-                    cr.kubevirt.jp/containerdisk-archlinux:latest
-        docker push cr.kubevirt.jp/containerdisk-archlinux:latest
+                    cr.kubevirt.jp/archlinux:latest
+        docker push cr.kubevirt.jp/archlinux:latest

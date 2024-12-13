@@ -83,5 +83,5 @@ jobs:
       run: |
         docker pull ghcr.io/docheio/containerdisk-ubuntu:18
         docker tag  ghcr.io/docheio/containerdisk-ubuntu:18 \
-                    cr.kubevirt.jp/containerdisk-ubuntu:18
-        docker push cr.kubevirt.jp/containerdisk-ubuntu:18
+                    cr.kubevirt.jp/ubuntu:18
+        docker push cr.kubevirt.jp/ubuntu:18

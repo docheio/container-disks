@@ -83,6 +83,6 @@ jobs:
       run: |
         docker pull ghcr.io/docheio/containerdisk-centos:9-stream
         docker tag  ghcr.io/docheio/containerdisk-centos:9-stream \
-                    cr.kubevirt.jp/containerdisk-centos:9-stream
-        docker push cr.kubevirt.jp/containerdisk-centos:9-stream
+                    cr.kubevirt.jp/centos:9-stream
+        docker push cr.kubevirt.jp/centos:9-stream
         

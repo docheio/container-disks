@@ -83,5 +83,5 @@ jobs:
       run: |
         docker pull ghcr.io/docheio/containerdisk-rockylinux:9.5
         docker tag  ghcr.io/docheio/containerdisk-rockylinux:9.5 \
-                    cr.kubevirt.jp/containerdisk-rockylinux:9.5
-        docker push cr.kubevirt.jp/containerdisk-rockylinux:9.5
+                    cr.kubevirt.jp/rockylinux:9.5
+        docker push cr.kubevirt.jp/rockylinux:9.5
