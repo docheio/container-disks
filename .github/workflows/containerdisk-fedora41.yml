@@ -71,3 +71,17 @@ jobs:
         docker tag  ghcr.io/docheio/containerdisk-fedora:41 \
                     docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-fedora:41
         docker push docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-fedora:41
+
+    - name: Log in to KubevirtJP
+      uses: docker/login-action@v3
+      with:
+        registry: kubevirt.jp
+        username: ${{ secrets.KUBEVIRT_USERNAME }}
+        password: ${{ secrets.KUBEVIRT_TOKEN }}
+
+    - name: Tag and push to KubevirtJP
+      run: |
+        docker pull ghcr.io/docheio/containerdisk-fedora:41
+        docker tag  ghcr.io/docheio/containerdisk-fedora:41 \
+                    kubevirt.jp/containerdisk-fedora:41
+        docker push kubevirt.jp/containerdisk-fedora:41

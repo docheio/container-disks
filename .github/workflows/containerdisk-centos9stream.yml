@@ -71,3 +71,18 @@ jobs:
         docker tag  ghcr.io/docheio/containerdisk-centos:9-stream \
                     docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-centos:9-stream
         docker push docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-centos:9-stream
+
+    - name: Log in to KubevirtJP
+      uses: docker/login-action@v3
+      with:
+        registry: kubevirt.jp
+        username: ${{ secrets.KUBEVIRT_USERNAME }}
+        password: ${{ secrets.KUBEVIRT_TOKEN }}
+
+    - name: Tag and push to KubevirtJP
+      run: |
+        docker pull ghcr.io/docheio/containerdisk-centos:9-stream
+        docker tag  ghcr.io/docheio/containerdisk-centos:9-stream \
+                    kubevirt.jp/containerdisk-centos:9-stream
+        docker push kubevirt.jp/containerdisk-centos:9-stream
+        
