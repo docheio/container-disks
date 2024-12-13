@@ -75,7 +75,7 @@ jobs:
     - name: Log in to KubevirtJP
       uses: docker/login-action@v3
       with:
-        registry: kubevirt.jp
+        registry: cr.kubevirt.jp
         username: ${{ secrets.KUBEVIRT_USERNAME }}
         password: ${{ secrets.KUBEVIRT_TOKEN }}
 
@@ -83,5 +83,5 @@ jobs:
       run: |
         docker pull ghcr.io/docheio/containerdisk-rockylinux:9
         docker tag  ghcr.io/docheio/containerdisk-rockylinux:9 \
-                    kubevirt.jp/containerdisk-rockylinux:9
-        docker push kubevirt.jp/containerdisk-rockylinux:9
+                    cr.kubevirt.jp/containerdisk-rockylinux:9
+        docker push cr.kubevirt.jp/containerdisk-rockylinux:9

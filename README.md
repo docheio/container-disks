@@ -4,32 +4,32 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 # Available Packages
 | OS         | Version | Login    | URL                                                                                               | Detail            |
 |:-----------|:--------|:---------|:--------------------------------------------------------------------------------------------------|:------------------|
-| archlinux  |         | arch     | `kubevirt.jp/containerdisk-archlinux:latest`   `ghcr.io/docheio/containerdisk-archlinux:latest`   |                   |
-| ubuntu     | bionic  | ubuntu   | `kubevirt.jp/containerdisk-ubuntu:18`          `ghcr.io/docheio/containerdisk-ubuntu:18`          |                   |
-| ubuntu     | focal   | ubuntu   | `kubevirt.jp/containerdisk-ubuntu:20`          `ghcr.io/docheio/containerdisk-ubuntu:20`          |                   |
-| ubuntu     | jammy   | ubuntu   | `kubevirt.jp/containerdisk-ubuntu:22`          `ghcr.io/docheio/containerdisk-ubuntu:22`          |                   |
-| ubuntu     | mantic  | ubuntu   | `kubevirt.jp/containerdisk-ubuntu:23`          `ghcr.io/docheio/containerdisk-ubuntu:23`          | No longer updated |
-| ubuntu     | noble   | ubuntu   | `kubevirt.jp/containerdisk-ubuntu:24`          `ghcr.io/docheio/containerdisk-ubuntu:24`          |                   |
-| opensuse   | 15.1    | opensuse | `kubevirt.jp/containerdisk-opensuse-leap:15.1` `ghcr.io/docheio/containerdisk-opensuse-leap:15.1` |                   |
-| opensuse   | 15.2    | opensuse | `kubevirt.jp/containerdisk-opensuse-leap:15.2` `ghcr.io/docheio/containerdisk-opensuse-leap:15.2` |                   |
-| opensuse   | 15.3    | opensuse | `kubevirt.jp/containerdisk-opensuse-leap:15.3` `ghcr.io/docheio/containerdisk-opensuse-leap:15.3` |                   |
-| opensuse   | 15.4    | opensuse | `kubevirt.jp/containerdisk-opensuse-leap:15.4` `ghcr.io/docheio/containerdisk-opensuse-leap:15.4` |                   |
-| opensuse   | 15.5    | opensuse | `kubevirt.jp/containerdisk-opensuse-leap:15.5` `ghcr.io/docheio/containerdisk-opensuse-leap:15.5` |                   |
-| opensuse   | 15.6    | opensuse | `kubevirt.jp/containerdisk-opensuse-leap:15.6` `ghcr.io/docheio/containerdisk-opensuse-leap:15.6` |                   |
-| centos     | 7       | centos   | `kubevirt.jp/containerdisk-centos:7`           `ghcr.io/docheio/containerdisk-centos:7`           |                   |
-| centos     | 8       | centos   | `kubevirt.jp/containerdisk-centos:8`           `ghcr.io/docheio/containerdisk-centos:8`           |                   |
-| centos     | 8stream | centos   | `kubevirt.jp/containerdisk-centos:8-stream`    `ghcr.io/docheio/containerdisk-centos:8-stream`    |                   |
-| centos     | 9stream | centos   | `kubevirt.jp/containerdisk-centos:9-stream`    `ghcr.io/docheio/containerdisk-centos:9-stream`    |                   |
-| fedora     | 35      | fedora   | `kubevirt.jp/containerdisk-fedora:35`          `ghcr.io/docheio/containerdisk-fedora:35`          | No longer updated |
-| fedora     | 36      | fedora   | `kubevirt.jp/containerdisk-fedora:36`          `ghcr.io/docheio/containerdisk-fedora:36`          | No longer updated |
-| fedora     | 37      | fedora   | `kubevirt.jp/containerdisk-fedora:37`          `ghcr.io/docheio/containerdisk-fedora:37`          | No longer updated |
-| fedora     | 38      | fedora   | `kubevirt.jp/containerdisk-fedora:38`          `ghcr.io/docheio/containerdisk-fedora:38`          | No longer updated |
-| fedora     | 39      | fedora   | `kubevirt.jp/containerdisk-fedora:39`          `ghcr.io/docheio/containerdisk-fedora:39`          |                   |
-| fedora     | 40      | fedora   | `kubevirt.jp/containerdisk-fedora:40`          `ghcr.io/docheio/containerdisk-fedora:40`          |                   |
-| fedora     | 41      | fedora   | `kubevirt.jp/containerdisk-fedora:41`          `ghcr.io/docheio/containerdisk-fedora:41`          |                   |
-| rockylinux | 8       | rocky    | `kubevirt.jp/containerdisk-rockylinux:8`       `ghcr.io/docheio/containerdisk-rockylinux:8`       |                   |
-| rockylinux | 9       | rocky    | `kubevirt.jp/containerdisk-rockylinux:9`       `ghcr.io/docheio/containerdisk-rockylinux:9`       |                   |
-| rockylinux | 9.5     | rocky    | `kubevirt.jp/containerdisk-rockylinux:9.5`     `ghcr.io/docheio/containerdisk-rockylinux:9.5`     |                   |
+| archlinux  |         | arch     | `cr.kubevirt.jp/containerdisk-archlinux:latest`   `ghcr.io/docheio/containerdisk-archlinux:latest`   |                   |
+| ubuntu     | bionic  | ubuntu   | `cr.kubevirt.jp/containerdisk-ubuntu:18`          `ghcr.io/docheio/containerdisk-ubuntu:18`          |                   |
+| ubuntu     | focal   | ubuntu   | `cr.kubevirt.jp/containerdisk-ubuntu:20`          `ghcr.io/docheio/containerdisk-ubuntu:20`          |                   |
+| ubuntu     | jammy   | ubuntu   | `cr.kubevirt.jp/containerdisk-ubuntu:22`          `ghcr.io/docheio/containerdisk-ubuntu:22`          |                   |
+| ubuntu     | mantic  | ubuntu   | `cr.kubevirt.jp/containerdisk-ubuntu:23`          `ghcr.io/docheio/containerdisk-ubuntu:23`          | No longer updated |
+| ubuntu     | noble   | ubuntu   | `cr.kubevirt.jp/containerdisk-ubuntu:24`          `ghcr.io/docheio/containerdisk-ubuntu:24`          |                   |
+| opensuse   | 15.1    | opensuse | `cr.kubevirt.jp/containerdisk-opensuse-leap:15.1` `ghcr.io/docheio/containerdisk-opensuse-leap:15.1` |                   |
+| opensuse   | 15.2    | opensuse | `cr.kubevirt.jp/containerdisk-opensuse-leap:15.2` `ghcr.io/docheio/containerdisk-opensuse-leap:15.2` |                   |
+| opensuse   | 15.3    | opensuse | `cr.kubevirt.jp/containerdisk-opensuse-leap:15.3` `ghcr.io/docheio/containerdisk-opensuse-leap:15.3` |                   |
+| opensuse   | 15.4    | opensuse | `cr.kubevirt.jp/containerdisk-opensuse-leap:15.4` `ghcr.io/docheio/containerdisk-opensuse-leap:15.4` |                   |
+| opensuse   | 15.5    | opensuse | `cr.kubevirt.jp/containerdisk-opensuse-leap:15.5` `ghcr.io/docheio/containerdisk-opensuse-leap:15.5` |                   |
+| opensuse   | 15.6    | opensuse | `cr.kubevirt.jp/containerdisk-opensuse-leap:15.6` `ghcr.io/docheio/containerdisk-opensuse-leap:15.6` |                   |
+| centos     | 7       | centos   | `cr.kubevirt.jp/containerdisk-centos:7`           `ghcr.io/docheio/containerdisk-centos:7`           |                   |
+| centos     | 8       | centos   | `cr.kubevirt.jp/containerdisk-centos:8`           `ghcr.io/docheio/containerdisk-centos:8`           |                   |
+| centos     | 8stream | centos   | `cr.kubevirt.jp/containerdisk-centos:8-stream`    `ghcr.io/docheio/containerdisk-centos:8-stream`    |                   |
+| centos     | 9stream | centos   | `cr.kubevirt.jp/containerdisk-centos:9-stream`    `ghcr.io/docheio/containerdisk-centos:9-stream`    |                   |
+| fedora     | 35      | fedora   | `cr.kubevirt.jp/containerdisk-fedora:35`          `ghcr.io/docheio/containerdisk-fedora:35`          | No longer updated |
+| fedora     | 36      | fedora   | `cr.kubevirt.jp/containerdisk-fedora:36`          `ghcr.io/docheio/containerdisk-fedora:36`          | No longer updated |
+| fedora     | 37      | fedora   | `cr.kubevirt.jp/containerdisk-fedora:37`          `ghcr.io/docheio/containerdisk-fedora:37`          | No longer updated |
+| fedora     | 38      | fedora   | `cr.kubevirt.jp/containerdisk-fedora:38`          `ghcr.io/docheio/containerdisk-fedora:38`          | No longer updated |
+| fedora     | 39      | fedora   | `cr.kubevirt.jp/containerdisk-fedora:39`          `ghcr.io/docheio/containerdisk-fedora:39`          |                   |
+| fedora     | 40      | fedora   | `cr.kubevirt.jp/containerdisk-fedora:40`          `ghcr.io/docheio/containerdisk-fedora:40`          |                   |
+| fedora     | 41      | fedora   | `cr.kubevirt.jp/containerdisk-fedora:41`          `ghcr.io/docheio/containerdisk-fedora:41`          |                   |
+| rockylinux | 8       | rocky    | `cr.kubevirt.jp/containerdisk-rockylinux:8`       `ghcr.io/docheio/containerdisk-rockylinux:8`       |                   |
+| rockylinux | 9       | rocky    | `cr.kubevirt.jp/containerdisk-rockylinux:9`       `ghcr.io/docheio/containerdisk-rockylinux:9`       |                   |
+| rockylinux | 9.5     | rocky    | `cr.kubevirt.jp/containerdisk-rockylinux:9.5`     `ghcr.io/docheio/containerdisk-rockylinux:9.5`     |                   |
 
 # Docker Hub
 | OS         | URL                                                           |
