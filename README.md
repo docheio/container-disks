@@ -49,7 +49,7 @@ DISK="40Gi"
 CPU="4"
 MEM="4G"
 SSH_KEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEOO example"
-URL="docker://ghcr.io/docheio/containerdisk-archlinux:latest"
+URL="docker://cr.kubevirt.jp/archlinux:latest"
 
 cat <<EOF | kubectl -n $NAMESPACE apply -f -
 apiVersion: cdi.kubevirt.io/v1beta1
