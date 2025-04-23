@@ -1,4 +1,4 @@
-# Container Disks [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdocheio%2Fcontainer-disks&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=view&edge_flat=false)](https://hits.seeyoufarm.com)
+# Container Disks
 This repo provides container-disk that can be used for Kubevirt's cloud-init on Kubernete.
 
 # Available Packages
