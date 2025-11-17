@@ -1,4 +1,4 @@
-# Container Disks
+# Container Disks ![](https://views-counter.vercel.app/badge?pageId=https://github.com/docheio/container-disks/edit/main/README.md)
 This repo provides container-disk that can be used for Kubevirt's cloud-init on Kubernete.
 
 # Available Packages
