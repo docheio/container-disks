@@ -10,6 +10,7 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | ubuntu     | jammy   | ubuntu   | `cr.kubevirt.jp/ubuntu:22`          `ghcr.io/docheio/containerdisk-ubuntu:22`          |                   |
 | ubuntu     | mantic  | ubuntu   | `cr.kubevirt.jp/ubuntu:23`          `ghcr.io/docheio/containerdisk-ubuntu:23`          | No longer updated |
 | ubuntu     | noble   | ubuntu   | `cr.kubevirt.jp/ubuntu:24`          `ghcr.io/docheio/containerdisk-ubuntu:24`          |                   |
+| ubuntu     | plucky  | ubuntu   | `cr.kubevirt.jp/ubuntu:25`          `ghcr.io/docheio/containerdisk-ubuntu:25`          |                   |
 | opensuse   | 15.1    | opensuse | `cr.kubevirt.jp/opensuse-leap:15.1` `ghcr.io/docheio/containerdisk-opensuse-leap:15.1` |                   |
 | opensuse   | 15.2    | opensuse | `cr.kubevirt.jp/opensuse-leap:15.2` `ghcr.io/docheio/containerdisk-opensuse-leap:15.2` |                   |
 | opensuse   | 15.3    | opensuse | `cr.kubevirt.jp/opensuse-leap:15.3` `ghcr.io/docheio/containerdisk-opensuse-leap:15.3` |                   |
@@ -24,12 +25,15 @@ This repo provides container-disk that can be used for Kubevirt's cloud-init on 
 | fedora     | 36      | fedora   | `cr.kubevirt.jp/fedora:36`          `ghcr.io/docheio/containerdisk-fedora:36`          | No longer updated |
 | fedora     | 37      | fedora   | `cr.kubevirt.jp/fedora:37`          `ghcr.io/docheio/containerdisk-fedora:37`          | No longer updated |
 | fedora     | 38      | fedora   | `cr.kubevirt.jp/fedora:38`          `ghcr.io/docheio/containerdisk-fedora:38`          | No longer updated |
-| fedora     | 39      | fedora   | `cr.kubevirt.jp/fedora:39`          `ghcr.io/docheio/containerdisk-fedora:39`          |                   |
-| fedora     | 40      | fedora   | `cr.kubevirt.jp/fedora:40`          `ghcr.io/docheio/containerdisk-fedora:40`          |                   |
+| fedora     | 39      | fedora   | `cr.kubevirt.jp/fedora:39`          `ghcr.io/docheio/containerdisk-fedora:39`          | No longer updated |
+| fedora     | 40      | fedora   | `cr.kubevirt.jp/fedora:40`          `ghcr.io/docheio/containerdisk-fedora:40`          | No longer updated |
 | fedora     | 41      | fedora   | `cr.kubevirt.jp/fedora:41`          `ghcr.io/docheio/containerdisk-fedora:41`          |                   |
+| fedora     | 42      | fedora   | `cr.kubevirt.jp/fedora:42`          `ghcr.io/docheio/containerdisk-fedora:42`          |                   |
+| fedora     | 43      | fedora   | `cr.kubevirt.jp/fedora:43`          `ghcr.io/docheio/containerdisk-fedora:43`          |                   |
 | rockylinux | 8       | rocky    | `cr.kubevirt.jp/rockylinux:8`       `ghcr.io/docheio/containerdisk-rockylinux:8`       |                   |
 | rockylinux | 9       | rocky    | `cr.kubevirt.jp/rockylinux:9`       `ghcr.io/docheio/containerdisk-rockylinux:9`       |                   |
-| rockylinux | 9.5     | rocky    | `cr.kubevirt.jp/rockylinux:9.5`     `ghcr.io/docheio/containerdisk-rockylinux:9.5`     |                   |
+| rockylinux | 9.5     | rocky    | `cr.kubevirt.jp/rockylinux:9.5`     `ghcr.io/docheio/containerdisk-rockylinux:9.5`     | No longer updated |
+| rockylinux | 10      | rocky    | `cr.kubevirt.jp/rockylinux:10`      `ghcr.io/docheio/containerdisk-rockylinux:10`      |                   |
 
 # Docker Hub
 | OS         | URL                                                           |
