@@ -1,16 +1,16 @@
 # ********************************************************************************************************************** #
 #                                                                                                                        #
 #                                                       :::    :::     :::     :::     :::   ::: ::::::::::: ::::::::::  #
-#    containerdisk-fedora39.yml                        :+:   :+:    :+: :+:   :+:     :+:   :+:     :+:     :+:          #
+#    containerdisk-fedora42.yml                        :+:   :+:    :+: :+:   :+:     :+:   :+:     :+:     :+:          #
 #                                                     +:+  +:+    +:+   +:+  +:+      +:+ +:+      +:+     +:+           #
 #    By: codespace <codespace@kalyte.ro>             +#++:++    +#++:++#++: +#+       +#++:       +#+     +#++:++#       #
 #                                                   +#+  +#+   +#+     +#+ +#+        +#+        +#+     +#+             #
 #    Created: 2023/12/17 16:36:26 by codespace     #+#   #+#  #+#     #+# #+#        #+#        #+#     #+#              #
-#    Updated: 2023/12/17 16:37:32 by codespace    ###    ### ###     ### ########## ###        ###     ##########.ro     #
+#    Updated: 2025/11/17 13:45:32 by codespace    ###    ### ###     ### ########## ###        ###     ##########.ro     #
 #                                                                                                                        #
 # ********************************************************************************************************************** #
 
-name: Container Image CI fedora39
+name: Container Image CI fedora42
 
 on:
   push:
@@ -54,9 +54,9 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
-        file: ./fedora39.Dockerfile
+        file: ./fedora42.Dockerfile
         push: true
-        tags: ghcr.io/docheio/containerdisk-fedora:39
+        tags: ghcr.io/docheio/containerdisk-fedora:42
         labels: ${{ steps.meta.outputs.labels }}
 
     - name: Log in to Docker Hub
@@ -67,10 +67,10 @@ jobs:
 
     - name: Tag and push to Docker Hub
       run: |
-        docker pull ghcr.io/docheio/containerdisk-fedora:39
-        docker tag  ghcr.io/docheio/containerdisk-fedora:39 \
-                    docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-fedora:39
-        docker push docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-fedora:39
+        docker pull ghcr.io/docheio/containerdisk-fedora:42
+        docker tag  ghcr.io/docheio/containerdisk-fedora:42 \
+                    docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-fedora:42
+        docker push docker.io/${{ secrets.DOCKERHUB_USERNAME }}/containerdisk-fedora:42
 
     - name: Log in to KubevirtJP
       uses: docker/login-action@v3
@@ -81,7 +81,7 @@ jobs:
 
     - name: Tag and push to KubevirtJP
       run: |
-        docker pull ghcr.io/docheio/containerdisk-fedora:39
-        docker tag  ghcr.io/docheio/containerdisk-fedora:39 \
-                    cr.kubevirt.jp/fedora:39
-        docker push cr.kubevirt.jp/fedora:39
+        docker pull ghcr.io/docheio/containerdisk-fedora:42
+        docker tag  ghcr.io/docheio/containerdisk-fedora:42 \
+                    cr.kubevirt.jp/fedora:42
+        docker push cr.kubevirt.jp/fedora:42
