@@ -2,6 +2,7 @@
 This repo provides container-disk that can be used for Kubevirt's cloud-init on Kubernete.
 
 # In maintenance
+2025/11/17
 
 # Available Packages
 | OS         | Version | Login    | URL                                                                                    | Detail            |
